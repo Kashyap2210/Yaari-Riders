@@ -61,3 +61,7 @@ body {
 .col-2 {
   grid-column: span 2;
 }
+
+.special {
+  background-position: center -80px;
+}
