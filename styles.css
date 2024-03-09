@@ -38,4 +38,6 @@ body {
 
 .gallery {
   flex-basis: 50%;
+  display: grid;
+  gap: 0.5rem;
 }
