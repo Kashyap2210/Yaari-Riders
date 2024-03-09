@@ -44,3 +44,15 @@ body {
   grid-auto-rows: 7.5rem;
 }
 
+.box {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+  color: white;
+  background-blend-mode: difference;
+}
+
+
