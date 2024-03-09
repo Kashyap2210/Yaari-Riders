@@ -52,7 +52,8 @@ body {
   align-items: center;
   background-color: #222;
   color: white;
-  background-blend-mode: difference;
+  background-blend-mode: hard-light;
+  transition: all 0.5s ease-in-out;
 }
 
 .row-2 {
@@ -64,4 +65,11 @@ body {
 
 .special {
   background-position: center -80px;
+}
+
+.box:hover {
+  background-color: #999;
+  /* background-position: top; */
+  box-shadow: 0 0 4px white;
+  cursor: pointer;
 }
