@@ -10,3 +10,12 @@ body {
   font-family: "Bodoni Moda", serif;
   font-size: 1.2rem;
 }
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  background: linear-gradient(to right, black, grey);
+}
