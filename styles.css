@@ -19,3 +19,11 @@ body {
   gap: 20px;
   background: linear-gradient(to right, black, grey);
 }
+
+.left-text {
+  flex-basis: 30%;
+}
+
+.gallery {
+  flex-basis: 50%;
+}
