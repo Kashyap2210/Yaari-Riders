@@ -1,5 +1,7 @@
-let fileToBeOpened = document.querySelector("li");
+let fileToBeOpened = document.querySelectorAll("li");
 
-fileToBeOpened.addEventListener("click", function () {
-  console.log("FIle is clicked");
+fileToBeOpened.forEach(function (file) {
+  file.addEventListener("click", function () {
+    console.log("File is clicked");
+  });
 });
