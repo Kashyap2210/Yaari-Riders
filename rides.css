@@ -25,7 +25,8 @@ body {
 .description-of-ride {
   font-size: 1rem;
   line-height: 2rem;
-  margin: 0rem 1rem 1rem 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   padding: 1rem;
 }
 
@@ -41,7 +42,7 @@ body {
 }
 
 .stats ul li {
-  list-style: none;
+  /* list-style: none; */
   margin-left: 3rem;
   /* margin-bottom: 2rem; */
   line-height: 2rem;
