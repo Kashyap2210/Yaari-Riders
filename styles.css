@@ -35,6 +35,7 @@ body {
   color: white;
   margin-top: 0.625rem;
   text-align: center;
+  text-align: justify;
 }
 
 .gallery {
@@ -73,6 +74,28 @@ body {
   /* background-position: top; */
   box-shadow: 0 0 4px white;
   cursor: pointer;
+}
+
+.ride-container h2 {
+  font-size: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
+  /* padding: 1rem; */
+}
+
+.ride-container ul {
+  margin-bottom: 2rem;
+}
+
+.ride-container ul li {
+  /* list-style: none; */
+  margin-left: 5rem;
+  /* margin-bottom: 2rem; */
+  line-height: 2rem;
+}
+
+.ride-container p {
+  margin-left: 2rem;
 }
 
 .ride-container ul li:hover {
