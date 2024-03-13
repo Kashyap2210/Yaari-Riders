@@ -58,11 +58,12 @@ body {
 }
 
 .gallery {
+  border: 1px solid white;
   flex-basis: 90%;
   display: grid;
   gap: 0.5rem;
   grid-template-columns: repeat(5, 1fr);
-  grid-auto-rows: 7.5rem;
+  grid-template-rows: repeat(5, 7rem);
 }
 
 .box {
