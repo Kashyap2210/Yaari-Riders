@@ -97,6 +97,11 @@ body {
 .col-3 {
   grid-column: span 3;
 }
+
+.col-4 {
+  grid-column: span 4;
+}
+
 .col-5 {
   grid-column: span 5;
 }
