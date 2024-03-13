@@ -90,6 +90,9 @@ body {
 .row-3 {
   grid-row: span 3;
 }
+.row-5 {
+  grid-row: span 5;
+}
 .col-3 {
   grid-column: span 3;
 }
@@ -99,6 +102,10 @@ body {
 
 .special {
   background-position: center -80px;
+}
+
+.height-special {
+  height: 95.5%;
 }
 
 .box:hover {
