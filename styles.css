@@ -154,3 +154,37 @@ body {
 .ride-container ul li:hover {
   cursor: pointer;
 }
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+  border: 1px solid white;
+}
+
+.footer .instagram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-left: 2rem;
+}
+
+.footer .instagram:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.footer .gmail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-right: 5rem;
+}
+
+.footer .gmail:hover {
+  cursor: pointer;
+  color: blue;
+}
