@@ -16,6 +16,10 @@ body {
   text-align: justify;
 }
 
+.nav-bar{
+  margin-bottom: 1rem;
+}
+
 .navbar-for-scrolling {
   background-color: #ff499e;
   color: black;

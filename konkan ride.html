@@ -7,7 +7,20 @@
     <link rel="stylesheet" href="rides.css" />
   </head>
   <body>
-    <section class="main-heading">
+    <section class="nav-bar" id="nav-bar">
+      <nav>
+        <div class="navbar-for-scrolling">
+          <div class="logo-name">
+            <!-- <img src="INDEX/Logo.png" alt="logo" class="logo" /> -->
+            Yaari Riders
+          </div>
+          <div class="nav-options">Blog</div>
+          <div class="nav-options">Stats</div>
+          <div class="nav-options">Gallery</div>
+        </div>
+      </nav>
+    </section>
+    <section class="main-heading" id="Blog">
       <h1>Konkan Ride: The Journey Full of Ups and Downs</h1>
     </section>
     <section class="description-of-ride">
@@ -53,7 +66,7 @@
         </li>
       </ul>
     </section>
-    <section class="stats">
+    <section class="stats" id="Stats">
       <h3>Ride Stats</h3>
       <ul>
         <li>Total Riders: 5</li>
@@ -63,7 +76,7 @@
       </ul>
     </section>
 
-    <section class="container">
+    <section class="container" id="Gallery">
       <div class="gallery">
         <div
           class="box row-3"
@@ -98,7 +111,10 @@
             background-position: center -60px;
           "
         ></div>
-        <div class="box col-4" style="background-image: url(konkan/18.jpg)"></div>
+        <div
+          class="box col-4"
+          style="background-image: url(konkan/18.jpg)"
+        ></div>
       </div>
     </section>
   </body>
