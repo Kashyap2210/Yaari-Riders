@@ -262,3 +262,8 @@ body {
 
   border: 1px solid white;
 }
+
+hr {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
