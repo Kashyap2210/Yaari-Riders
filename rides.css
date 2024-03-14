@@ -8,10 +8,11 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  /* background: linear-gradient(to right, black, #cc0000); */
-  background-color: greenyellow;
+  background: linear-gradient(to right, black, #cc0000);
+  /* background-color: greenyellow; */
   font-size: 1.2rem;
   color: white;
+  padding-top: 5rem;
   text-align: justify;
 }
 
