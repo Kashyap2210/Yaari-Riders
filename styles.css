@@ -188,3 +188,32 @@ body {
   cursor: pointer;
   color: blue;
 }
+
+.popup {
+  position: relative;
+  bottom: 1rem;
+  right: 5rem;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1rem;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+}
+
+.popuptext {
+  color: white;
+  width: 10rem;
+  height: 2rem;
+  font-size: 1rem;
+  display: none;
+  position: absolute;
+  background-color: black;
+  border: 1px solid #aaa;
+  border-radius: 0.5rem;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-100%);
+  text-align: center;
+}

@@ -13,14 +13,20 @@ instaRedirect.addEventListener("click", () => {
   window.open("https://www.instagram.com/yaari_riders/", "_blank");
 });
 
-const maidIdCopied = document.querySelector(".for-copy");
-
-maidIdCopied.addEventListener("click", async () => {
-  const maidIdCopy = maidIdCopied.innerHTML;
-  try {
-    await navigator.clipboard.writeText(maidIdCopy);
-    console.log("Text Copied");
-  } catch (error) {
-    console.log("Error while copying text.", error);
-  }
-});
+function copyEmail() {
+  const email = document.querySelector(".for-copy").textContent;
+  navigator.clipboard
+    .writeText(email)
+    .then(() => {
+      const popup = document.getElementById("popup");
+      const popupText = document.getElementById("myPopup");
+      popupText.style.display = "block";
+      setTimeout(() => {
+        popupText.style.display = "none";
+      }, 2000); // Hide popup after 2 seconds
+      console.log("Email Copied");
+    })
+    .catch((error) => {
+      console.error("Error while copying email.", error);
+    });
+}
