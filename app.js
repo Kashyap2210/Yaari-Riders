@@ -7,11 +7,38 @@ fileToBeOpened.forEach(function (file) {
   });
 });
 
+// Popup hover function starts
+
 let instaRedirect = document.querySelector(".instagram");
+const instaPopup = document.querySelector("#insta-pop-up");
+
+instaRedirect.addEventListener("mouseover", () => {
+  instaPopup.classList.add("show");
+});
+
+instaRedirect.addEventListener("mouseout", () => {
+  instaPopup.classList.remove("show");
+});
 
 instaRedirect.addEventListener("click", () => {
   window.open("https://www.instagram.com/yaari_riders/", "_blank");
 });
+
+// Popup hover function ends
+
+// Email hover function starts
+
+const emailPopup = document.querySelector(".gmail");
+const emailIdPopup = document.querySelector("#gmail-pop-up");
+
+emailPopup.addEventListener("mouseover", () => {
+  emailIdPopup.classList.add("show-email");
+});
+
+emailPopup.addEventListener("mouseout", () => {
+  emailIdPopup.classList.remove("show-email");
+});
+// Email hover function ends
 
 function copyEmail() {
   const email = document.querySelector(".for-copy").textContent;
