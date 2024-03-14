@@ -6,3 +6,9 @@ fileToBeOpened.forEach(function (file) {
     window.location = `${listItemClicked}.html`;
   });
 });
+
+let instaRedirect = document.querySelector(".instagram");
+
+instaRedirect.addEventListener("click", () => {
+  window.open("https://www.instagram.com/yaari_riders/", "_blank");
+});
