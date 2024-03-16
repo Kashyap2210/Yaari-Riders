@@ -8,7 +8,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(to right, black, #cc0000);
+  background-color: #020d19;
   /* background-color: greenyellow; */
   font-size: 1.2rem;
   color: white;
@@ -16,13 +16,13 @@ body {
   text-align: justify;
 }
 
-.nav-bar{
+.nav-bar {
   margin-bottom: 1rem;
 }
 
 .navbar-for-scrolling {
-  background-color: #ff499e;
-  color: black;
+  background-color: #000557;
+  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,7 +45,7 @@ body {
   width: 40%;
   margin-left: 5rem;
   font-size: 3rem;
-  font-weight: 800;
+  font-weight: 400;
 }
 
 .navbar-for-scrolling .logo-name:hover {
@@ -67,7 +67,7 @@ body {
 
 .navbar-for-scrolling .nav-options:hover {
   cursor: pointer;
-  color: black;
+  color: white;
   opacity: 1;
   /* transition: 0.5s ease; */
 }
