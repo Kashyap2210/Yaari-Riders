@@ -10,3 +10,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const home = document.querySelector(".home");
+  home.addEventListener("click", () => {
+    window.location = `index.html`;
+  });
+});
