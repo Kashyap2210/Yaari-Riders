@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const navTo = option.textContent.trim();
       const navToElement = document.getElementById(navTo);
       if (navToElement) {
-        navToElement.scrollIntoView({ behavior: "smooth" });
+        navToElement.scrollIntoView({ behavior: "smooth", block: "center" });
       }
     });
   });
