@@ -7,6 +7,17 @@ fileToBeOpened.forEach(function (file) {
   });
 });
 
+fileToBeOpened.forEach(function (file) {
+  file.addEventListener("mouseover", function () {
+    file.style.textDecoration = "underline";
+  });
+});
+fileToBeOpened.forEach(function (file) {
+  file.addEventListener("mouseout", function () {
+    file.style.textDecoration = "none";
+  });
+});
+
 // Popup hover function starts
 
 let instaRedirect = document.querySelector(".instagram");
